@@ -6,6 +6,7 @@ public class Account {
 	private String accountID;
 	private String accountPassword;
 	private String accountName;
+	private String accountNumber;
 	private int accountBalance;
 
 	// get, set 메소드
@@ -32,6 +33,14 @@ public class Account {
 
 	public void setAccountName(String accountName) {
 		this.accountName = accountName;
+	}
+
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
 	}
 
 	public int getAccountBalance() {
